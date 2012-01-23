@@ -376,7 +376,6 @@ class Resource(object):
                 isinstance(result, list) or isinstance(result, QuerySet)):
             fields = handler.list_fields
 
->>>>>>> other
         srl = emitter(result, typemapper, handler, fields, anonymous)
 
         try:
